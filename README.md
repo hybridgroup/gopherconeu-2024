@@ -1,10 +1,10 @@
-# Gophercon 2024
+# Gophercon.EU 2024
 
-The is the repository for the hardware hack session at Gophercon 2024.
+The is the repository for the hardware hack session at Gophercon.EU 2024.
 
-https://gophercon.com/
+https://gophercon.eu/
 
-### If you received a GoBadge, it is yours to keep. Please return all other equipment when you are finished for the next person. Thank you!
+### If you ordered a Gopher Badge, it is yours to keep. Please return all other equipment when you are finished for the next person. Thank you!
 
 ## Installation
 
@@ -12,11 +12,11 @@ Please read our [installation instructions here](./INSTALL.md).
 
 ## Activities
 
-### GoBadge Hacking
+### Gopher Badge Hacking
 
-![GoBadge](./images/gobadges.jpg)
+![Gopher Badge](./images/gobadges.jpg)
 
-If you are one of the very fortunate individuals to have received a GoBadge, it is in fact yours to keep!
+If you are one of the very fortunate individuals to have ordered a Gopher Badge, it is in fact yours to keep!
 
 Go to https://github.com/tinygo-org/gobadge for more info.
 
@@ -34,19 +34,7 @@ There are some Grove sensor kits that you can use for the activity.
 
 Ready to try this out? Go to [./sensor/arduino/](./sensor/arduino/) to get started.
 
-### Gopherdrones
-
-#### DJI Tello
-
-![Tello](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Ryze_Tello.jpg/320px-Ryze_Tello.jpg)
-
-We have brought some DJI Tello drones for your Go-powered flying activities.
-
-In additional to the drones to be to be coded/flown, we also have Dualshock3-clone controllers for flight control. Post your awesome videos using hashtag #gophercon
-
-Want to get airborne? Go to [./drone/tello/](./drone/tello/).
-
-#### Parrot Minidrones
+### Parrot Minidrones
 
 ![Parrot Minidrone](https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rolling_Spider.jpg/320px-Rolling_Spider.jpg)
 
@@ -68,6 +56,18 @@ Add buttons, sliders, a joystick, and when we say become part of the music we me
 
 Let's make beautiful music together, just go to [./musicjam/](./musicjam/).
 
+### WowWee MiP robots
+
+Two wheeled balancing robots you control using Bluetooth.
+
+### WowWee ChIP robot
+
+Robotic dog you control using Bluetooth.
+
+### OpenLED Race
+
+Virtual racing using real LEDs!
+
 ### Sphero Ollie robots
 
 ![Sphero Ollie](./images/ollie.jpg)
@@ -84,4 +84,4 @@ We have some additional bounties and prizes, [you can see more information here]
 
 ## License
 
-Copyright (c) 2015-2023 The Hybrid Group and friends. Licensed under the MIT license.
+Copyright (c) 2015-2024 The Hybrid Group and friends. Licensed under the MIT license.

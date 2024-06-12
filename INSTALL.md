@@ -5,8 +5,8 @@
 First use git to clone this repo to your local machine:
 
 ```
-git clone https://github.com/hybridgroup/gophercon-2024.git
-cd gophercon-2024
+git clone https://github.com/hybridgroup/gopherconeu-2024.git
+cd gopherconeu-2024
 ```
 
 ## Install Go 1.22

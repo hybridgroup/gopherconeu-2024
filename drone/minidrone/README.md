@@ -16,11 +16,14 @@ Do you have a Gopher Badge or GoBadge? You can also use it to control your drone
 
 ## Installation
 
-Change directories into this one where the needed Go modules files are located. 
+The code in this activity code uses the TinyGo Bluetooth package http://tinygo.org/bluetooth
 
-Any other dependencies are listed in the tutorial under the step where they are needed.
+It also uses the https://github.com/hybridgroup/tinygo-minidrone package which is where the code wrappers for the Parrot Minidrone Bluetooth API are located.
+
+Change directories into this directory where the needed Go modules files are located, and all dependencies will be installed.
 
 ## Running the code
+
 When you run any of these examples, you will compile and execute the code on your computer. When you are running the program, you will be communicating with the Minidrone using the Bluetooth interface.
 
 On Linux and Windows you will use the MAC address of the device to connect.
@@ -112,3 +115,7 @@ Control the Minidrone with your keyboard!
 - i, k, j, l control moving up, down, turning counter clockwise, and clockwise
 - t, g, f, h control front flip, back flip, left flip, right flip
 - r stop all movement on the minidrone to allow it to simply hover
+
+## What now?
+
+Try adding some new features to the https://github.com/hybridgroup/tinygo-mip repo. There are a number of interesting unimplemented API functions to explore!

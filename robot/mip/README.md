@@ -12,7 +12,11 @@ About the MiP...
 
 ## Installation
 
-Since this code uses the TinyGo Bluetooth package, you may have some specific installation requirements for your platform.
+The code in this activity code uses the TinyGo Bluetooth package http://tinygo.org/bluetooth
+
+It also uses the https://github.com/hybridgroup/tinygo-mip package which is where the code wrappers for the WowWee MiP Bluetooth API are located.
+
+Change directories into this directory where the needed Go modules files are located, and all dependencies will be installed.
 
 ## Running the code
 
@@ -45,7 +49,7 @@ go run ./step1/ [MAC address or Bluetooth ID]
 
 ### step2
 
-Now lets play with the LEDs, and put all of our actions into a single function.
+Now lets play with the LEDs, and put all of our actions into a single function. Look at the `performActions()` function in `actions.go`.
 
 ```
 go run ./step2/ [MAC address or Bluetooth ID]
@@ -53,7 +57,7 @@ go run ./step2/ [MAC address or Bluetooth ID]
 
 ### step3
 
-Now lets try turning around. Stand up the MiP so it balances itself, then run this programs. It will turn around left and right in place.
+Now lets try turning around. Stand up the MiP so it balances itself, then run this program. It will turn around left and right in place.
 
 ```
 go run ./step3/ [MAC address or Bluetooth ID]
@@ -67,15 +71,21 @@ Now lets move forwards and backward. Stand up the MiP so it balances itself, the
 go run ./step4/ [MAC address or Bluetooth ID]
 ```
 
+Now you should have the basics for moving MiP around. Try modifying the `performActions()` function to combine movement and LEDs however you like.
+
 ### step5
 
-Now it is time for free driving, controlled by you, the human pilot. Plug in the DS3 controller to your computer. The controls are as follows:
+Now it is time for free driving controlled by you, the human pilot. Plug in the DS3 controller to your computer. The controls are as follows:
 
 * Triangle    - Standup
 * Right stick - direction and speed
 
 
 IMPORTANT NOTE: you must press the "P3" button when your program first runs for the "clone" DS3 joysticks we are using to fully turn on.
+
+## What now?
+
+Try adding some new features to the https://github.com/hybridgroup/tinygo-mip repo. There are a number of interesting unimplemented API functions to explore!
 
 ## License
 

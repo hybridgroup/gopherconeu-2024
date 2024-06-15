@@ -27,17 +27,19 @@ On Linux and Windows you will use the MAC address of the device to connect.
 
 On macOS you must use the Bluetooth ID of the device to connect.
 
-Therefore, you must know the correct name and then MAC address or ID for that robot in order to connect to it.
+Therefore, you must know the correct name and then MAC address or ID for that device in order to connect to it.
 
-The name of the drone should be listed on the side of it. You can lookup the correct MAC address in the following table.
+The name of the drone should be listed on the side of it.
 
-|Name|MAC Address|
-|----|-----------|
-|Travis_056919|E0:14:5D:F0:3D:A4|
-|Drone 2|XX|
-|Drone 3|XX|
+To find out the unique MAC address or Bluetooth ID for a device, you can use the Bluetooth scanner located in the tools directory of this repo.
 
-To find out the unique Bluetooth ID assigned to that device from macOS, you can use the Bluetooth scanner located in the tools directory of this repo.
+First, change so the current directory is the `tools` directory.
+
+Then, run the following command:
+
+```shell
+go run ./blescanner
+```
 
 ## Code
 
@@ -85,7 +87,7 @@ This is the same functionality as step04, but instead of using Metal Gobot now w
 
 ### step05/main.go
 
-Now it is time for free flight, controlled by you, the human pilot. Plug in the DS4 or DS3 controller to your computer. The controls are as follows:
+Now it is time for free flight, controlled by you, the human pilot. Plug in the DS3 controller to your computer. The controls are as follows:
 
 * Triangle    - Takeoff
 * X           - Land

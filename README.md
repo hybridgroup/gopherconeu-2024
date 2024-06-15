@@ -14,7 +14,7 @@ Please read our [installation instructions here](./INSTALL.md).
 
 ### Gopher Badge Hacking
 
-![Gopher Badge](https://gopherbadge.com/images/front_real.png)
+![Gopher Badge](./images/gopherbadge.webp)
 
 If you are one of the very fortunate individuals to have ordered a Gopher Badge, it is in fact yours to keep!
 

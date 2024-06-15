@@ -20,6 +20,40 @@ If you are one of the very fortunate individuals to have ordered a Gopher Badge,
 
 Go to https://github.com/tinygo-org/gobadge for more info.
 
+### TinyGo LED Race
+
+Virtual racing using real LEDs!
+
+https://github.com/conejoninja/ledrace
+
+### Parrot Minidrones
+
+![Parrot Minidrone](https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rolling_Spider.jpg/320px-Rolling_Spider.jpg)
+
+We have Parrot Minidrones you can fly with Go code to control them using their built-in Bluetooth API.
+
+Post in-flight videos using hashtag #gophercon
+
+Ready for takeoff? Go to [./drone/minidrone/](./drone/minidrone/).
+
+### WowWee MiP robots
+
+Two wheeled balancing robots you control using Bluetooth.
+
+### WowWee ChIP robot
+
+Robotic dog you control using Bluetooth.
+
+### Sphero Ollie robots
+
+![Sphero Ollie](./images/ollie.jpg)
+
+Turns out we had a few unopened Sphero Ollie robots that we found just in time for Gophercon! These fast Bluetooth controlled robotic toys have long been a Go programmer fan favorite.
+
+There are a few of these cylindrical robots to help satisfy your need for speed.
+
+Want to take one for a spin? Go to [./robot/sphero/](./robot/sphero/).
+
 ### TinyGo IoT sensors
 
 ![Arduino Nano RP2040](./sensor/arduino/assets/step6.jpg)
@@ -34,16 +68,6 @@ There are some Grove sensor kits that you can use for the activity.
 
 Ready to try this out? Go to [./sensor/arduino/](./sensor/arduino/) to get started.
 
-### Parrot Minidrones
-
-![Parrot Minidrone](https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rolling_Spider.jpg/320px-Rolling_Spider.jpg)
-
-We have Parrot Minidrones you can fly with Go code to control them using their built-in Bluetooth API.
-
-Post in-flight videos using hashtag #gophercon
-
-Ready for takeoff? Go to [./drone/minidrone/](./drone/minidrone/).
-
 ### TinyGo Music Jam
 
 ![Controller mk2](./images/music-mk2.jpg)
@@ -55,28 +79,6 @@ Thanks to the USB-MIDI support, you can turn your board into a tiny digital musi
 Add buttons, sliders, a joystick, and when we say become part of the music we mean it!
 
 Let's make beautiful music together, just go to [./musicjam/](./musicjam/).
-
-### WowWee MiP robots
-
-Two wheeled balancing robots you control using Bluetooth.
-
-### WowWee ChIP robot
-
-Robotic dog you control using Bluetooth.
-
-### OpenLED Race
-
-Virtual racing using real LEDs!
-
-### Sphero Ollie robots
-
-![Sphero Ollie](./images/ollie.jpg)
-
-Turns out we had a few unopened Sphero Ollie robots that we found just in time for Gophercon! These fast Bluetooth controlled robotic toys have long been a Go programmer fan favorite.
-
-There are a few of these cylindrical robots to help satisfy your need for speed.
-
-Want to take one for a spin? Go to [./robot/sphero/](./robot/sphero/).
 
 ## Bounties
 

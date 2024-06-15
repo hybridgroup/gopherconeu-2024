@@ -22,7 +22,7 @@ Go to https://gopherbadge.com/ for more info.
 
 ### TinyGo LED Race
 
-![LED Race](./images/ledrace.png)
+![LED Race](./images/ledrace-input2.gif)
 
 Virtual racing using real LEDs!
 

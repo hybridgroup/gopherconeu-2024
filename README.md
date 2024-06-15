@@ -14,13 +14,15 @@ Please read our [installation instructions here](./INSTALL.md).
 
 ### Gopher Badge Hacking
 
-![Gopher Badge](./images/gobadges.jpg)
+![Gopher Badge](https://gopherbadge.com/images/front_real.png)
 
 If you are one of the very fortunate individuals to have ordered a Gopher Badge, it is in fact yours to keep!
 
-Go to https://github.com/tinygo-org/gobadge for more info.
+Go to https://gopherbadge.com/ for more info.
 
 ### TinyGo LED Race
+
+![LED Race](./images/ledrace.png)
 
 Virtual racing using real LEDs!
 
@@ -32,27 +34,19 @@ https://github.com/conejoninja/ledrace
 
 We have Parrot Minidrones you can fly with Go code to control them using their built-in Bluetooth API.
 
-Post in-flight videos using hashtag #gophercon
+Post in-flight videos using hashtag #gopherconeu
 
 Ready for takeoff? Go to [./drone/minidrone/](./drone/minidrone/).
 
 ### WowWee MiP robots
 
-Two wheeled balancing robots you control using Bluetooth.
+![WowWee MiP](./images/mip.png)
 
-### WowWee ChIP robot
+Along for the ride, we brought a couple of WowWee MiP two-wheeled self-balancing robots that you control using Bluetooth.
 
-Robotic dog you control using Bluetooth.
+Post robot videos using hashtag #gopherconeu
 
-### Sphero Ollie robots
-
-![Sphero Ollie](./images/ollie.jpg)
-
-Turns out we had a few unopened Sphero Ollie robots that we found just in time for Gophercon! These fast Bluetooth controlled robotic toys have long been a Go programmer fan favorite.
-
-There are a few of these cylindrical robots to help satisfy your need for speed.
-
-Want to take one for a spin? Go to [./robot/sphero/](./robot/sphero/).
+Ready to roll? Go to [./robot/mip](./robot/mip/).
 
 ### TinyGo IoT sensors
 

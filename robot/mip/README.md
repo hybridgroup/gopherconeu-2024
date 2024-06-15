@@ -1,6 +1,6 @@
 # WowWee MiP
 
-![MiP](../../images/mip.jpg)
+![MiP](../../images/mip.png)
 
 About the MiP...
 

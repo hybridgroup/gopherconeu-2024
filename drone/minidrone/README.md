@@ -4,12 +4,12 @@
 
 The Minidrone from Parrot uses a Bluetooth interface and programming API.
 
-You can use [Gobot](https://github.com/hybridgroup/gobot) to control the drone from your notebook computer.
+You can use [TinyGo Bluetooth](https://tinygo.org/bluetooth) to control the drone from your notebook computer.
 
 ## What you need
 
     - Parrot Minidrone
-    - Personal computer with Go 1.19+ installed
+    - Personal computer with Go 1.20+ installed
     - Works on Linux, macOS, or Windows
 
 Do you have a Gopher Badge or GoBadge? You can also use it to control your drone using the Flightbadge firmware! Look in the tutorials directory in the repo for your specific badge.
@@ -61,8 +61,6 @@ The drone will hover and return some flight data info. Run this code:
 
 ### step03/main.go
 
-**NOTE: Ctrl-C will now land the drone if you get in trouble!**
-
 The drone can move forward, backward, to the right, and the left, all while maintaining a steady altitude. Run the code. 
 
 ```go run ./step3/main.go [MAC address or Bluetooth ID]```
@@ -74,14 +72,6 @@ The drone can move forward, backward, to the right, and the left, all while main
 The drone can perform flips while flying. Run the code.
 
 ```go run ./step4/main.go [MAC address or Bluetooth ID]```
-
-<hr>
-
-### step04a/main.go
-
-This is the same functionality as step04, but instead of using Metal Gobot now we switch to using Standard Gobot. Notice the way that Gobot provides some functions like `Every()` and `After()` to help manage the various events. Run the code.
-
-```go run ./step4a/main.go [MAC address or Bluetooth ID]```
 
 <hr>
 
@@ -111,6 +101,8 @@ IMPORTANT NOTE: you must press the "P3" button when your program first runs for 
 
 <hr>
 
+<hr>
+
 ### keyboard/main.go
 
 Control the Minidrone with your keyboard!
@@ -119,4 +111,4 @@ Control the Minidrone with your keyboard!
 - w, s, a, d control moving forward, backward, strafe left, and strafe right
 - i, k, j, l control moving up, down, turning counter clockwise, and clockwise
 - t, g, f, h control front flip, back flip, left flip, right flip
-- r stop all movement on the tello to allow it to simply hover
+- r stop all movement on the minidrone to allow it to simply hover

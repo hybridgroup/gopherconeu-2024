@@ -6,6 +6,10 @@ https://gophercon.eu/
 
 ### If you ordered a Gopher Badge, it is yours to keep. Please return all other equipment when you are finished for the next person. Thank you!
 
+## Important: Return all hardware after your session
+
+⚠️ Return all borrowed materials and hardware, so the next Gopher can enjoy the session too. ⚠️
+
 ## Installation
 
 Please read our [installation instructions here](./INSTALL.md).
@@ -77,6 +81,10 @@ Let's make beautiful music together, just go to [./musicjam/](./musicjam/).
 ## Bounties
 
 We have some additional bounties and prizes, [you can see more information here](./BOUNTIES.md).
+
+## ⚠️ Return all hardware after your session ⚠️
+
+Return all borrowed materials and hardware, so the next Gopher can enjoy the session too.
 
 ## License
 

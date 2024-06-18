@@ -24,13 +24,16 @@ If you are one of the very fortunate individuals to have ordered a Gopher Badge,
 
 Go to https://gopherbadge.com/ for more info.
 
-### TinyGo LED Race
 
-![LED Race](./images/ledrace-input2.gif)
+# Gopherino
 
-Virtual racing using real LEDs!
+![Gopherino](./images/gopherino.jpeg)
 
-https://github.com/conejoninja/ledrace
+Gopherino is a robot based on the [Maqueen v4.1 platform](https://wiki.dfrobot.com/micro_Maqueen_for_micro_bit_SKU_ROB0148-EN#target_6) and powered by a [BBC Microbit](https://wiki.dfrobot.com/micro_Maqueen_for_micro_bit_SKU_ROB0148-EN#target_6). It has several sensors onboard, RGB LEDs and two motors to move. As well as several expasion connectors.
+
+https://github.com/conejoninja/gopherino
+
+
 
 ### Parrot Minidrones
 
